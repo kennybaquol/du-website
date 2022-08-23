@@ -10,3 +10,9 @@
 .item {
     margin: 3% 0%;
 }
+
+@media only screen and (max-width: 992px) {
+    .item {
+        margin: 6% 0%;
+    }
+}
