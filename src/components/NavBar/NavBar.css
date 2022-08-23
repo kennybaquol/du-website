@@ -1,0 +1,46 @@
+.navbar {
+    font-size: xx-large;
+    background-color: black;
+}
+
+.container {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.child {
+    text-decoration: none;
+    color: white;
+    margin: 1% 0;
+}
+
+/**
+* Alter Link font size based on screen width, and
+* split them into 2 rows of 3 when less than 769px wide
+**/
+/* @media only screen and (max-width: 1400px) {
+    .child { font-size:; }
+} */
+
+@media only screen and (max-width: 1400px) {
+    .navbar { font-size: x-large; }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar { font-size: larger; }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        font-size: large;
+    }
+
+    .child {
+        flex-basis: 33%;
+        margin: 2% 0%;
+    }
+}
+
+/* @media only screen and (max-width: 576px) {
+    .navbar { font-size: large; }
+} */

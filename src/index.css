@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
+  background-image: url('/public/du-logo.jpeg');
 }
 
 code {
