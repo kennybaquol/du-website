@@ -18,10 +18,6 @@
 * Alter Link font size based on screen width, and
 * split them into 2 rows of 3 when less than 769px wide
 **/
-/* @media only screen and (max-width: 1400px) {
-    .child { font-size:; }
-} */
-
 @media only screen and (max-width: 1400px) {
     .navbar { font-size: x-large; }
 }
@@ -40,7 +36,3 @@
         margin: 2% 0%;
     }
 }
-
-/* @media only screen and (max-width: 576px) {
-    .navbar { font-size: large; }
-} */
