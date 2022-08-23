@@ -1,12 +1,8 @@
-main {
-    position: relative;
-}
-
-h1 {
+.song-list-header {
     text-decoration: underline;
 }
 
-h2 {
+.song-list {
     padding: 1%;
     margin: 1% 15%;
     background-color: black;
