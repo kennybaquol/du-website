@@ -8,8 +8,7 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <main className="App">
-      {/* <div className='background'></div> */}
-      <NavBar />
+      <NavBar /><br />
       <Routes>
         <Route path='/' element={<Home />} />
       </Routes>
