@@ -7,7 +7,7 @@ export default function NavBar() {
             <nav className="navbar container">
                 <Link to='/' className="child">HOME</Link>
                 <Link to='/contact' className="child">CONTACT</Link>
-                <Link to='/merch' className="child">MERCH</Link>
+                {/* <Link to='/merch' className="child">MERCH</Link> */}
                 <Link to='/shows' className="child">SHOWS</Link>
                 <Link to='/songlist' className="child">SONG LIST</Link>
                 <Link to='/video' className="child">VIDEO</Link>

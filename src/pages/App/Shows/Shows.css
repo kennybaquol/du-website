@@ -1,0 +1,17 @@
+.widget_iframe {
+    width: 70%;
+    margin: 1.5% 0%;
+    margin-bottom: 20vh;
+}
+
+@media only screen and (min-height: 1000px) {
+    .widget_iframe {
+        margin-bottom: 40vh;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .widget_iframe {
+        width: 90%;
+    }
+}
