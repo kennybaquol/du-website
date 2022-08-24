@@ -1,16 +1,33 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    width: 35%;
+}
+
+.show-child {
+    align-self: center;
+    margin: 3%;
+}
+
 .widget_iframe {
     width: 70%;
     margin: 1.5% 0%;
     margin-bottom: 20vh;
 }
 
-@media only screen and (min-height: 1000px) {
-    .widget_iframe {
-        margin-bottom: 40vh;
-    }
-}
-
 @media only screen and (max-width: 992px) {
+    h2 {
+        font-size: large;
+    }
+
+    img {
+        width: 60%;
+    }
+
     .widget_iframe {
         width: 90%;
     }
