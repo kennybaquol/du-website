@@ -1,0 +1,39 @@
+img {
+    width: 50%;
+    float: left;
+    margin-right: 2%;
+}
+
+p {
+    font-size: larger;
+}
+
+h2 {
+    margin-top: 3%;
+}
+
+.contact-page {
+    margin: 3% 5%;
+    word-wrap: normal;
+}
+
+.socials {
+    height: 50vh;
+}
+
+@media only screen and (max-width: 992px) {
+    h2 {
+        font-size: large;
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    p {
+        font-size: x-large;
+    }
+
+    h3 {
+        font-size: xx-large;
+    }
+}

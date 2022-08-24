@@ -10,7 +10,7 @@ export default function NavBar() {
                 {/* <Link to='/merch' className="child">MERCH</Link> */}
                 <Link to='/shows' className="child">SHOWS</Link>
                 <Link to='/songlist' className="child">SONG LIST</Link>
-                <Link to='/video' className="child">VIDEO</Link>
+                {/* <Link to='/video' className="child">VIDEO</Link> */}
                 {/* // Make sure to add Socials (icon links) */}
             </nav>
         </main>
