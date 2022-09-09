@@ -18,6 +18,9 @@ export default function SongList() {
                     Avenged Sevenfold - Nightmare
                 </div>
                 <div className='item'>
+                    Blink-182 - All The Small Things, Feeling This
+                </div>
+                <div className='item'>
                     Buckcherry - Crazy Bitch,
                     Lit Up
                 </div>
@@ -83,7 +86,7 @@ export default function SongList() {
                     Nirvana - Come As You Are
                 </div>
                 <div className='item'>
-                    Pearl Jam - Alive
+                    Pearl Jam - Even Flow
                 </div>
                 <div className='item'>
                     Poison - Nothin’ But A Good Time

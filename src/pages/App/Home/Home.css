@@ -16,7 +16,7 @@ p {
 
 .home-child {
     flex-basis: 40%;
-    align-self:flex-start;
+    align-self: flex-start;
 }
 
 @media only screen and (max-width: 992px) {
